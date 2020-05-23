@@ -1,7 +1,7 @@
 {
-  "name": "waellet-oracle-service",
+  "name": "aeternity-aens-auto-bid",
   "version": "1.0.0",
-  "description": "Waellet Oracle Service",
+  "description": "Aeternity AENS name claim and auto bid",
   "main": "index.js",
   "scripts": {
     "start": "node -r esm index.js",
@@ -16,7 +16,7 @@
   "author": "Milen Radkov <milenradkov@me.com>",
   "license": "ISC",
   "dependencies": {
-    "@aeternity/aepp-sdk": "^6.0.2",
+    "@aeternity/aepp-sdk": "^7.3.0",
     "axios": "^0.19.0",
     "esm": "^3.2.25",
     "express": "^4.17.1"
